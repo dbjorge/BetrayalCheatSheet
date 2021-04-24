@@ -99,7 +99,7 @@ class BetrayalCheatSheet extends React.Component {
             <div id='betrayal-cheatSheet'>
                 <section id='landing-description'>
                     <h1>
-                        Path of Exile - Syndicate Cheat Sheet
+                        Betrayal Cheat Sheet for Path of Exile
                     </h1>
                     <h2>
                         An interactive tool that lets you highlight Betrayal/Syndicate rewards for easy reference. Click a square below to get started.
@@ -146,13 +146,10 @@ class BetrayalCheatSheet extends React.Component {
                         </Button>
                     </div>
                 </section>
-                <section id='footer'>
-                    <h2>
-                        Last updated for 3.14. Made by Multigrain.
-                    </h2>
-                    <p>Thanks to carefuldownvoter91 and FixFaxer for publishing 3.14 information!</p>
-                    <p><a href={'https://github.com/poetools/BetrayalCheatSheet'}>Source Code</a></p>
-                </section>
+                <footer id='footer'>
+                    <p>Last updated for 3.14</p>
+                    <p><a href='https://github.com/dbjorge/poe-betrayal/#credits'>Credits</a> | <a href='https://github.com/dbjorge/poe-betrayal'>Source Code</a></p>
+                </footer>
             </div>
         );
     }
